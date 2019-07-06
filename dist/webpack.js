@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/webpack_and_rollup.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -187,16 +187,16 @@ eval("module.exports = NodeCGLib;\n\n//# sourceURL=webpack:///external_%22NodeCG
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/webpack_and_rollup.js":
+/*!***********************************!*\
+  !*** ./src/webpack_and_rollup.js ***!
+  \***********************************/
 /*! no exports provided */
 /*! all exports used */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var rgb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rgb */ \"./node_modules/rgb/index.js\");\n/* harmony import */ var rgb__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(rgb__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var d3_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-color */ \"./node_modules/d3-color/src/index.js\");\n/* harmony import */ var _nodecg_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nodecg.js */ \"./nodecg.js\");\n/* harmony import */ var _nodecg_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nodecg_js__WEBPACK_IMPORTED_MODULE_2__);\n // CJS dep from npm\r\n // ESM dep from npm\r\n // external ESM\r\n\r\nconsole.log('cjs deps work if this prints an rgb string:', rgb__WEBPACK_IMPORTED_MODULE_0___default()('maroon'));\r\nconsole.log('esm deps work if this prints an rgb object:', d3_color__WEBPACK_IMPORTED_MODULE_1__[/* color */ \"a\"](\"steelblue\"));\r\n\r\nfunction component() {\r\n\tconst element = document.createElement('div');\r\n\telement.innerHTML = 'Hello bundler';\r\n\treturn element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\nObject(_nodecg_js__WEBPACK_IMPORTED_MODULE_2__[\"log\"])();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var rgb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rgb */ \"./node_modules/rgb/index.js\");\n/* harmony import */ var rgb__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(rgb__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var d3_color__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! d3-color */ \"./node_modules/d3-color/src/index.js\");\n/* harmony import */ var _nodecg_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nodecg.js */ \"./nodecg.js\");\n/* harmony import */ var _nodecg_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nodecg_js__WEBPACK_IMPORTED_MODULE_2__);\n/* This is the JS that gets used by Webpack and Rollup. */\r\n\r\n // CJS dep from npm\r\n // ESM dep from npm\r\n // external ESM\r\n\r\nconsole.log('cjs deps work if this prints an rgb string:', rgb__WEBPACK_IMPORTED_MODULE_0___default()('maroon'));\r\nconsole.log('esm deps work if this prints an rgb object:', d3_color__WEBPACK_IMPORTED_MODULE_1__[/* color */ \"a\"](\"steelblue\"));\r\n\r\nfunction component() {\r\n\tconst element = document.createElement('div');\r\n\telement.innerHTML = 'Hello bundler';\r\n\treturn element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\nObject(_nodecg_js__WEBPACK_IMPORTED_MODULE_2__[\"log\"])();\r\n\n\n//# sourceURL=webpack:///./src/webpack_and_rollup.js?");
 
 /***/ })
 

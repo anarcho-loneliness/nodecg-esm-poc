@@ -1,3 +1,5 @@
+/* This is the JS that gets used by Webpack and Rollup. */
+
 import cjsColor from 'rgb'; // CJS dep from npm
 import * as d3 from 'd3-color'; // ESM dep from npm
 import {log} from './nodecg.js'; // external ESM

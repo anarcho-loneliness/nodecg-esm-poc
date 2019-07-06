@@ -657,6 +657,8 @@ define(Cubehelix, cubehelix, extend(Color, {
   }
 }));
 
+/* This is the JS that gets used by Webpack and Rollup. */
+
 console.log('cjs deps work if this prints an rgb string:', rgb('maroon'));
 console.log('esm deps work if this prints an rgb object:', color$1("steelblue"));
 
