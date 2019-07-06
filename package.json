@@ -23,7 +23,7 @@
     "webpack-cli": "^3.3.5"
   },
   "dependencies": {
-    "@tomekf/noop": "0.0.1",
-    "noop3": "^1000.0.0"
+    "rgb": "^0.1.0",
+    "d3-color": "^1.2.8"
   }
 }
